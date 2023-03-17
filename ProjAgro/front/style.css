@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15vw;
+    height: 100vh;
+    background-color: black;
+}
+
+main{
+    display: flex;
+    position: absolute;
+    background-color: rgb(214, 214, 214);
+    width: 83vw;
+    height: 98vh;
+    top: 1vh;
+    right: 1vw;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.t1{
+    width: 30px;
+    height: 30px;
+}
+.t2{
+    width: 40px;
+    height: 40px;
+}
+#logo1{
+    width: 50px;
+    height: 50px;
+}
+#t1{
+    color: white;
+}
+.abas{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    width: 13vw;
+    height: 4vh;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: rgba(255, 255, 255, 0.19) 0px 10px 20px, rgba(255, 255, 255, 0.23) 0px 6px 6px;
+}
+.abas:hover{
+    transition: 0.5s;
+    width: 13.2vw;
+    height: 4.2vh;
+}
+
+/* Pagina home ---------------------------------------------------------------------- */
+
+#hhome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    border-radius: 15px; 
+    top: 20px;
+    left:  50px;
+    width: 25vw;
+    height: 10vh;
+}
+#hhome:hover{
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#areaf{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border-radius: 15px;
+    border-color: black;
+    border: 10px;
+    top: 40px;
+    right:  20px;
+    width: 15vw;
+    height: 40vh;
+    background-color: white;
+}
+.momo{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#areaf:hover{
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#veiculosd{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    position: absolute;
+    border-radius: 15px; 
+    top: 40px;
+    left:  580px;
+    width: 35vw;
+    height: 40vh;
+}
+#veiculosd:hover{
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#b1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    border-radius: 15px; 
+    top: 150px;
+    left:  50px;
+    width: 25vw;
+    height: 80vh;
+}
+#b1:hover{
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#b2{
+    background-color: white;
+    position: absolute;
+    border-radius: 15px; 
+    top: 480px;
+    left:  580px;
+    width: 25vw;
+    height: 45vh;
+}
+#b2:hover{
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#b3{
+    background-color: white;
+    position: absolute;
+    border-radius: 15px; 
+    top: 480px;
+    left:  1090px;
+    width: 25vw;
+    height: 45vh;
+}
+#b3:hover{
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* area do usuario  --------------------------------------------------------- */
+#userimg{
+    top: 10px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+#nomef{
+    top: 60px;
+    left: 10px;
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+}
+
+#emailf{
+    top: 90px;
+    left: 10px;
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+}
+
+#cpff{
+    top: 120px;
+    left: 10px;
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+}
+#nfun{
+    cursor: pointer;
+    border: 0;
+    position: absolute;
+    right: 10px;
+    border-radius: 10px;
+    bottom: 10px;
+    width: 130px;
+    height: 30px;
+    background-color: rgb(128, 240, 113);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#nfun:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 5px, rgba(0, 0, 0, 0.3) 0px 8px 14px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#ncar{
+    cursor: pointer;
+    border: 0;
+    position: absolute;
+    left: 10px;
+    border-radius: 10px;
+    bottom: 10px;
+    width: 130px;
+    height: 30px;
+    background-color: rgb(128, 240, 113);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#ncar:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 5px, rgba(0, 0, 0, 0.3) 0px 8px 14px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+/* 
+area do veiculo ------------------------------------------------------- */
+
+#crf{
+    position: absolute;
+    left: 190px;
+    width: 90px;
+    height: 90px;
+}
+
+#idc{
+    display: flex;
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    top: 100px;
+    left: 20px;
+}
+
+#modc{
+    display: flex;
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    top: 150px;
+    left: 20px;
+}
+
+#stv{
+    display: flex;
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    top: 150px;
+    right: 20px;
+}
+
+#estv{
+    display: flex;
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    top: 190px;
+    right: 20px;
+}
+
+/* area de todos os veiculos --------------------------------------- */
+
+.vt{
+    background-color: rgb(216, 216, 216);
+    width: 20vw;
+    height: 9vh;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.vt{
+    display: flex;
+    position: relative;
+
+}
+
+.vtm{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+.vts{
+    position: absolute;
+    top: 32px;
+    left: 10px;
+      display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+.vtc{
+     position: absolute;
+    top: 55px;
+    left: 10px;
+      display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#btnv{
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(58, 250, 58);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#btnv:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 5px, rgba(0, 0, 0, 0.3) 0px 8px 14px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.btnv{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+/* cards modais ------------------------------- */
+
+#card1{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+#modal_s{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    width: 50vw;
+    height: 60vh;
+    background-color: aliceblue;
+}
+#sair_modal_s{
+    top: 10px;
+    right: 15px;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#dessol{
+    margin-top: 20px;
+    width: 20vw;
+    height: 5vh;
+
+}
+
+.model{
+    display: none;
+}
+
+#card2{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+#modal_ss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    width: 50vw;
+    height: 60vh;
+    background-color: aliceblue;
+}
+#modal_ss p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#modal_ss input{
+    width: 350px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+h1{
+    margin-top: 20px;
+}
+#sair_modal_ss{
+    top: 10px;
+    right: 15px;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#cadvei{
+    position: absolute;
+    bottom: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(58, 250, 58);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#cadvei:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 5px, rgba(0, 0, 0, 0.3) 0px 8px 14px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#card3{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+#modal_sss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    width: 50vw;
+    height: 60vh;
+    background-color: aliceblue;
+}
+#sair_modal_sss{
+    top: 10px;
+    right: 15px;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#modal_sss p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#modal_sss input{
+    width: 350px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#caduse{
+    position: absolute;
+    bottom: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(58, 250, 58);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#caduse:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 5px, rgba(0, 0, 0, 0.3) 0px 8px 14px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+

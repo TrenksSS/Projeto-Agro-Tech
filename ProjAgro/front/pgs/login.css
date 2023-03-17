@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(122, 122, 122);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#card1{
+    justify-content: center;
+    display: flex;
+    position: relative;
+    width: 20vw;
+    height: 45vh;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#imgl{
+    position: absolute;
+    left: 160px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+}
+#titulo{
+    font-size: 30px;
+    position: absolute;
+    left: 80px;
+    top: 60px;
+    font-weight: bold;
+}
+#nomel{
+    margin-right: 15px;
+    top: 150px;
+    left: 20px;
+    position: absolute;
+    display: flex;
+}
+#senhal{
+    top: 200px;
+    left: 20px;
+    position: absolute;
+    display: flex;
+}
+#titulol{
+    margin-right: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#titulos{
+    margin-right: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.ip{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#bb{
+    position: absolute;
+    top: 280px;
+    left: 150px;
+    
+}
+
+#blog{
+    cursor: pointer;
+    cursor: ;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(145, 226, 142);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#flog{
+    
+    display: flex;
+    position: absolute;
+    width: 18vw;
+    left: 40px;
+    top: 390px;
+    font-size: 12px;
+}
+
+#msg{
+    color:rgb(70, 184, 66); 
+    cursor: pointer;
+}
+
+#card2{
+    align-items: center;
+    flex-direction: column;
+    display: none;
+    position: relative;
+    width: 20vw;
+    height: 45vh;
+    background-color: aliceblue;
+    border-radius: 10px;    
+}
+#x{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#msg1{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+#msg2{
+    position: absolute;
+    top: 300px;
+    left: 40px;
+}
+
+#admvl{
+    position: absolute;
+    top: 140px;
+}
+
+#emailmsg{
+    position: absolute;
+    top: 340px;
+    width: 300px;
+}
+#emsg{
+    cursor: pointer;
+    position: absolute;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(145, 226, 142);
+    bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}

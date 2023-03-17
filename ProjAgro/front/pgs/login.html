@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/sprout.png" type="image/x-icon">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div id="card1">
+        <img src="../assets/farmhouse.png" id="imgl" alt="">
+        <h2 id="titulo">Login Agro Tech</h2>
+        <div id="nomel">
+            <p id="titulol">Nome</p>
+            <input class="ip" id="emailu" type="text">
+        </div>
+        <div id="senhal">
+            <p id="titulos">Senha</p>
+            <input class="ip" id="senhau" type="text">
+        </div>
+
+        <div id="bb">
+            <button onclick="login()" id="blog">ENTRAR</button>
+        </div>
+
+        <div id="flog">
+            <p>caso não consiga efetuar o login envie uma </p>
+            &nbsp;
+            <p id="msg" onclick="abrirmsg()"> mensagem</p>
+        </div>
+
+        <div id="card2">
+            <p id="x" onclick="fecharmsg()">x</p>
+            <p id="msg1">Caso não esteja consegindo efetuar o login envie uma mensagem assim o responsavel pelo acesso 
+                podera visualisar e resolver seu problema o mais breve possivel
+            </p>
+            <textarea name="" id="admvl" cols="30" rows="10"></textarea>
+            <p id="msg2">Digite seu email para um possivel retorno</p>
+            <input id="emailmsg" type="text">
+            <button id="emsg" onclick="postar()">Enviar mensagem</button>
+        </div>
+    </div>
+
+
+    
+</body>
+<script src="login.js"></script>
+</html>

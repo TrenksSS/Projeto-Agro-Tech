@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/sprout.png" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <title>Agro Tech</title>
+</head>
+<body>
+    <header>
+        <img id="logo1" src="assets/farmhouse.png" alt="">
+        <h1 id="t1">Agro Tech</h1>
+
+        <div class="abas">
+            <img class="t1" src="assets/botao-de-inicio.png" alt="botão home">
+            <h2>Home</h2>
+        </div>
+    </header>
+    <main>
+        <div id="hhome">
+            <img class="t2" src="assets/botao-de-inicio.png" alt="botão home">
+            <h1>HOME</h1>
+        </div>
+        
+        <div  id ="areaf">
+            <img id="userimg" src="assets/user.png" alt="usuario">
+            <div class="momo model" >
+            
+                <p>Nome:</p>
+                <p id="noUse">Fulano</p>
+            
+            
+                <p>Email:</p>
+                <p id="emUse">fulano@gmail.com</p>
+            
+            
+                <p>CPF:</p>
+                <p >093********</p>
+            
+        </div>
+            <button onclick="abrirmodal3()" id="nfun">
+                movo funcionário
+            </button>
+            <button onclick="abrirmodal2()" id="ncar">
+                + Veiculo
+            </button>
+        </div>
+
+        <div id="veiculosd">
+
+            <canvas id="cha"></canvas>
+        </div>
+
+        <div id="b1">
+            <p>Veiculos</p>
+            <div class="vt model">
+                <div class="vtm">
+                    <p>Modelo :</p>
+                    <p id="modvt"></p>
+                </div>
+                <div class="vts">
+                    <p>Status :</p>
+                    <p id="sta"></p>
+                </div>
+                <div class="vtc">
+                    <p>Condição :</p>
+                    <p id="est"></p>
+                </div>
+                <div class="btnv">
+                    <button id="btnv" onclick="abrirmodal1()">
+                        Solicitar
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="b2">
+            <p></p>
+        </div>
+
+        <div id="b3">
+
+            <img id="crf" src="assets/carro.png" alt="carro">
+            <div id="idc">
+                <p>ID:</p>
+                <p>0658</p>
+            </div>
+
+            <div id="modc">
+                <p>Modelo:</p>
+                <p>Fiat UNO</p>
+            </div>
+            <div id="stv">
+                <p>Status:</p>
+                <p>Em rota</p>
+            </div>
+            <div id="estv">
+                <p>Estado:</p>'
+                <p>Ok</p>
+            </div>'
+
+        </div>
+    </main>
+    <div id="card1">
+        <div id="modal_s">
+            <p id="sair_modal_s" onclick="fecharmodal1()">x</p>
+            
+            <h1>Deseja solicitar este veiculo</h1>
+            <p>Descrição</p>
+            <input id="dessol" type="text">
+        </div>
+    </div>
+
+    <div id="card2">
+        <div id="modal_ss">
+            <p id="sair_modal_ss" onclick="fecharmodal2()">x</p>
+            
+            <h1>Deseja Adicionar um veiculo</h1>
+            <p>Modelo</p>
+            <input id="modvei" type="text">
+
+            <p>Tipo</p>
+            <input id="tipovei" type="text">
+
+            <p>Status</p>
+            <input id="stavei" type="text">
+
+            <p>Estado</p>
+            <input id="estvei" type="text">
+
+            <p>Ultima Manutenção</p>
+            <input id="ultvei" type="text">
+
+            <button onclick="cadcar()" id="cadvei">CADASTRAR</button>
+        </div>
+    </div>
+
+    <div id="card3">
+        <div id="modal_sss">
+            <p id="sair_modal_sss" onclick="fecharmodal3()">x</p>
+            
+            <h1>Cadastro de usuario</h1>
+            <p>Nome</p>
+            <input id="nouse" type="text">
+
+            <p>Email</p>
+            <input id="emuse" type="text">
+
+            <p>Senha</p>
+            <input id="seuse" type="text">
+
+            <p>Nivel</p>
+            <select id="niuse">
+                <option value="adm">Administrador</option>
+                <option value="use">Usuario</option>
+            </select>
+            
+
+            <button onclick="caduse()" id="caduse">CADASTRAR</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="scripts/data.js"></script>
+<script src="scripts/barChat1.js"></script>
+
+</html>
